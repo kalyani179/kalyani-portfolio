@@ -1,13 +1,286 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/***  NavBar  ***/
+
+.navbar {
+    margin-top: 0.5%;
+    font-family: 'Roboto', serif;
+    letter-spacing: 1px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nabar-brand {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin-left: -3%;
+    font-family: 'Merriweather', serif;
 }
+
+.nav-links {
+    font-size: 20px;
+    margin-right: 7%;
+    padding: 0.5%;
+    border-radius: 20px;
+}
+
+.nav-links,
+.social-media {
+    transition: 0.3s all ease-in-out;
+}
+
+.nav-links:hover,
+.social-media:hover {
+    transform: scale(1.15);
+}
+
+.navs {
+    margin-right: 3%;
+}
+
+.nav-links:hover {
+    background-color: #2e7ed7;
+    color: white;
+}
+
+
+/***  Heading  ***/
+
+.heading-div {
+    margin-top: 13%;
+    padding-left: 40%;
+}
+
+.heading {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.tagline {
+    margin: 2% 0 0 15%;
+    font-family: 'Open Sans', serif;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.wink {
+    height: 45px;
+    width: 45px;
+}
+
+.social-media {
+    height: 30px;
+    width: 30px;
+}
+
+.social-media-div {
+    margin: 12% -4% 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/***  Images  ***/
+
+.img-box {
+    position: absolute;
+    bottom: 0;
+    margin-left: 7%;
+    left: 100px;
+}
+
+.img-box img {
+    position: absolute;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: left 3s, bottom 1.5s;
+}
+
+
+/*on hovering water moves left*/
+
+.img-box:hover .pattern-img {
+    left: 10px;
+}
+
+
+/* on hovering image moves top*/
+
+.img-box:hover .kalyani-img {
+    bottom: 30px;
+}
+
+.pattern-img {
+    height: 100px;
+    width: 400px;
+    z-index: -1;
+    margin-left: -30%;
+}
+
+.kalyani-img {
+    height: 580px;
+    border-radius: 100%;
+}
+
+.heading-image-div {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/*** Skills ***/
+
+::-webkit-scrollbar {
+    /*To remove the scroll bar*/
+    display: none;
+}
+
+.flex-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.skills-img {
+    height: 100px;
+    width: 100px;
+}
+
+.skills-image-rating-div {
+    height: 170px;
+    width: 170px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 3% 5% 3% 3%;
+    box-shadow: inset 5rem 5rem 5rem 1rem #adb5bd
+}
+
+.skills-image-div,
+.skills-rating-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    box-shadow: inset 0rem 0rem 1rem 1rem #fff;
+    /* box-shadow: inset 0rem 0rem 3rem 3rem #fff; */
+}
+
+
+/*** About **/
+
+.about-flex-box {
+    gap: 30px;
+    margin-top: 9%;
+    color: black;
+}
+
+.front,
+.back {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: inset 0 0 0.5rem 0.5rem #666;
+}
+
+.back {
+    padding: 7%;
+}
+
+.about-front-heading {
+    position: absolute;
+    margin-top: 50%;
+    font-family: 'Merriweather', serif;
+    font-size: x-large;
+}
+
+.about-front-emoji {
+    margin-top: 25%;
+}
+
+
+/** Projects **/
+
+.project-heading {
+    color: grey;
+    text-align: center;
+    margin: 2.5% 0 3% 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 200%;
+}
+
+.projects-div {
+    margin: 4% 0 8% 0;
+}
+
+.projects-div,
+.experiences-div {
+    height: 150px;
+    width: 700px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-logo {
+    height: 100px;
+    width: 100px;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.project-name,
+.company-name {
+    text-decoration: none;
+    color: orange;
+    font-size: 190%;
+    font-family: 'Merriweather', serif;
+}
+
+.project-description {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/** Experiences **/
+
+.experiences-div {
+    margin: 4.5%;
+    height: 100px;
+    width: 500px;
+}
+
+.company-name {
+    color: #6554AF;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.experiences-details {
+    text-align: center;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/**
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
