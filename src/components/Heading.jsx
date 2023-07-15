@@ -9,10 +9,10 @@ function Heading(){
 <div className="heading-image-div">
     <div className="img-box">
         <Fade>
-            <img className="kalyani-img" src="../../images/kalyani-image.png" alt="kalyani-pic" />
+            <img className="kalyani-img" src="./kalyani-portfolio/../../images/kalyani-image.png" alt="kalyani-pic" />
         </Fade>
         <Bounce>
-                <img className="pattern-img" src="../../images/water-blue.png" alt="pattern"/>
+                <img className="pattern-img" src="./kalyani-portfolio/../../images/water-blue.png" alt="pattern"/>
         </Bounce>
         </div>
         <div className="heading-div">

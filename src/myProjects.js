@@ -3,43 +3,42 @@ const MyProjects = [
         id:1,
         name:"MathTime",
         url:"https://kalyani179.github.io/Math-Time-1/",
-        logo:"../../images/project-logos/yellow.png",
+        logo:"./kalyani-portfolio/../../images/project-logos/yellow.png",
         description:"HTML, CSS, BOOTSTRAP, JavaScript ( jQuery )"
     },
     {
         id:2,
         name:"ModernDictionary",
         url:"https://moderndictionary.onrender.com/",
-        logo:"../../images/project-logos/encyclopedia.png",
+        logo:"./kalyani-portfolio/../../images/project-logos/encyclopedia.png",
         description:"HTML, CSS, BOOTSTRAP, Express.js, API, MongoDB"
     },
     {
         id:3,
         name:"Foosic",
         url:"",
-        logo:"../../images/project-logos/foosic.png",
+        logo:"./kalyani-portfolio/../../images/project-logos/foosic.png",
         description:"HTML, CSS, BOOTSTRAP, React.js, Express.js, API, MongoDB"
     },
     {
         id:4,
         name:"Restaurant Billing System",
         url:"",
-        logo:"../../images/project-logos/restaurant.png",
+        logo:"./kalyani-portfolio/../../images/project-logos/restaurant.png",
         description:"Python"
     },
     {
         id:5,
         name:"Banking System",
         url:"",
-        logo:"../../images/project-logos/bank.png",
+        logo:"./kalyani-portfolio/../../images/project-logos/bank.png",
         description:"C++"
     },
     {
         id:6,
         name:"Database Management",
         url:"",
-        logo:"../../images/project-logos/database.png",
-
+        logo:"./kalyani-portfolio/../../images/project-logos/database.png",
         description:"MongoDB"
     }
 ]
