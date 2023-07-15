@@ -14,7 +14,7 @@ import Experiences from "./Experiences"
 
 function NavBar(){
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/kalyani-portfolio">
     <div>
     <>
         <Navbar className="navbar" bg="black" data-bs-theme="dark">
