@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kalyani-portfolio/static/css/main.1d2888e4.css",
+    "main.js": "/kalyani-portfolio/static/js/main.1ec4fdda.js",
+    "index.html": "/kalyani-portfolio/index.html",
+    "main.1d2888e4.css.map": "/kalyani-portfolio/static/css/main.1d2888e4.css.map",
+    "main.1ec4fdda.js.map": "/kalyani-portfolio/static/js/main.1ec4fdda.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d2888e4.css",
+    "static/js/main.1ec4fdda.js"
+  ]
+}
