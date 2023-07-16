@@ -19,7 +19,7 @@ function NavBar(){
     <>
         <Navbar className="navbar" bg="black" data-bs-theme="dark">
             <Container>
-             <Navbar.Brand className="nabar-brand" as={Link} to="/home">Portfolio</Navbar.Brand>
+             <Navbar.Brand className="nabar-brand" as={Link} to="/">Portfolio</Navbar.Brand>
              <Nav className="navs">
                 <Nav.Link className="nav-links" as={Link} to="/home">Home</Nav.Link>
                 <Nav.Link className="nav-links" as={Link} to="/about">About</Nav.Link>
@@ -32,6 +32,7 @@ function NavBar(){
           </>
           <div>
           <Routes>
+              <Route exact path="/" element={<Heading />}/>
               <Route exact path="/home" element={<Heading />}/>
               <Route path="/about" element={<About />} />
               <Route path="/skills" element={<Skills />} />
