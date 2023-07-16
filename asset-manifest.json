@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kalyani-portfolio/static/css/main.21531826.css",
+    "main.css": "/kalyani-portfolio/static/css/main.32195814.css",
     "main.js": "/kalyani-portfolio/static/js/main.e5436c2a.js",
     "index.html": "/kalyani-portfolio/index.html",
-    "main.21531826.css.map": "/kalyani-portfolio/static/css/main.21531826.css.map",
+    "main.32195814.css.map": "/kalyani-portfolio/static/css/main.32195814.css.map",
     "main.e5436c2a.js.map": "/kalyani-portfolio/static/js/main.e5436c2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.21531826.css",
+    "static/css/main.32195814.css",
     "static/js/main.e5436c2a.js"
   ]
 }
