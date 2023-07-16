@@ -11,6 +11,7 @@ function Entry(about){
         back1 = {about.back1}
         back2 = {about.back2}
         back3 = {about.back3}
+
     />
   )
 }

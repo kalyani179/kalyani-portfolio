@@ -6,7 +6,7 @@ import {
   Route,Routes,Link, BrowserRouter
 } from "react-router-dom";
 
-import Heading from "../Heading";
+import Heading from "./Heading";
 import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
