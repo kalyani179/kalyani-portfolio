@@ -1,103 +1,103 @@
 const MySkills=[
     {
         id:1,
-        image:"./kalyani-portfolio/../../images/skills/C.png",
+        image:"./images/skills/C.png",
         rating:"⭐⭐⭐⭐"
     },
     {
         id:2,
     
-        image:"./kalyani-portfolio/../../images/skills/C++.png",
+        image:"./images/skills/C++.png",
         rating:"⭐⭐⭐⭐"
     },
     {
         id:3,
-        image:"./kalyani-portfolio/../../images/skills/java.png",
+        image:"./images/skills/java.png",
         rating:"⭐⭐⭐"
     },
     {
         id:4,
-        image:"./kalyani-portfolio/../../images/skills/python.png",
+        image:"./images/skills/python.png",
         rating:"⭐⭐⭐⭐"
     },
     {
         id:5,
-        image:"./kalyani-portfolio/../../images/skills/HTML.png",
+        image:"./images/skills/HTML.png",
         rating:"⭐⭐⭐⭐⭐"
     },
     {
         id:6,
-        image:"./kalyani-portfolio/../../images/skills/CSS.png",
+        image:"./images/skills/CSS.png",
         rating:"⭐⭐⭐⭐"
     },
     {
         id:7,
-        image:"./kalyani-portfolio/../../images/skills/bootstrap.png",
+        image:"./images/skills/bootstrap.png",
         rating:"⭐⭐⭐⭐"
     },
     {
         id:8,
-        image:"./kalyani-portfolio/../../images/skills/javascript.png",
+        image:"./images/skills/javascript.png",
         rating:"⭐⭐⭐⭐"
     },
     {
         id:9,
-        image:"./kalyani-portfolio/../../images/skills/jquery.png",
+        image:"./images/skills/jquery.png",
         rating:"⭐⭐⭐⭐"
     },
     {
         id:10,
-        image:"./kalyani-portfolio/../../images/skills/react.png",
+        image:"./images/skills/react.png",
         rating:"⭐⭐⭐⭐"
     },
     {
         id:11,
-        image:"./kalyani-portfolio/../../images/skills/node-js.png",
+        image:"./images/skills/node-js.png",
         rating:"⭐⭐⭐⭐"
     },
     {
         id:12,
-        image:"./kalyani-portfolio/../../images/skills/API.png",
+        image:"./images/skills/API.png",
         rating:"⭐⭐⭐⭐⭐"
     },
     {
         id:13,
-        image:"./kalyani-portfolio/../../images/skills/sql.png",
+        image:"./images/skills/sql.png",
         rating:"⭐⭐⭐⭐"
     },
     {
         id:14,
-        image:"./kalyani-portfolio/../../images/skills/mongodb.png",
+        image:"./images/skills/mongodb.png",
         rating:"⭐⭐⭐"
     },
     {
         id:15,
-        image:"./kalyani-portfolio/../../images/skills/AI.png",
+        image:"./images/skills/AI.png",
         rating:"⭐⭐"
     },
     {
         id:16,
-        image:"./kalyani-portfolio/../../images/skills/DSA.png",
+        image:"./images/skills/DSA.png",
         rating:"⭐⭐⭐"
     },
     {
         id:17,
-        image:"./kalyani-portfolio/../../images/skills/blockchain.png",
+        image:"./images/skills/blockchain.png",
         rating:"⭐⭐⭐"
     },
     {
         id:18,
-        image:"./kalyani-portfolio/../../images/skills/github.png",
+        image:"./images/skills/github.png",
         rating:"⭐⭐⭐"
     },
     {
         id:19,
-        image:"./kalyani-portfolio/../../images/skills/typing.png",
+        image:"./images/skills/typing.png",
         rating:"⭐⭐⭐"
     },
     {
         id:20,
-        image:"./kalyani-portfolio/../../images/skills/piano.png",
+        image:"./images/skills/piano.png",
         rating:"⭐⭐⭐"
     }
 ]
