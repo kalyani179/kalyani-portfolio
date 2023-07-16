@@ -11,17 +11,22 @@ import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Experiences from "./Experiences"
-
+function refreshPage() {
+  setTimeout(()=>{
+      window.location.reload(false);
+  }, 500);
+  console.log('page to reload')
+}
 function NavBar(){
     return (
-      <BrowserRouter basename="/kalyani-portfolio">
+      <BrowserRouter basename="/kalyani-portfolio/">
     <div>
     <>
         <Navbar className="navbar" bg="black" data-bs-theme="dark">
             <Container>
-             <Navbar.Brand className="nabar-brand" as={Link} to="/">Portfolio</Navbar.Brand>
+             <Navbar.Brand className="nabar-brand" as={Link} to="/" onClick={refreshPage}>Portfolio</Navbar.Brand>
              <Nav className="navs">
-                <Nav.Link className="nav-links" as={Link} to="/home">Home</Nav.Link>
+                <Nav.Link className="nav-links" as={Link} to="/home" >Home</Nav.Link>
                 <Nav.Link className="nav-links" as={Link} to="/about">About</Nav.Link>
                 <Nav.Link className="nav-links" as={Link} to="/skills">Skills</Nav.Link>
                 <Nav.Link className="nav-links" as={Link} to="/projects">Projects</Nav.Link>
@@ -33,7 +38,7 @@ function NavBar(){
           <div>
           <Routes>
               <Route exact path="/" element={<Heading />}/>
-              <Route exact path="/home" element={<Heading />}/>
+              <Route path="/home" element={<Heading />}/>
               <Route path="/about" element={<About />} />
               <Route path="/skills" element={<Skills />} />
               <Route path="/projects" element={<Projects />} />
