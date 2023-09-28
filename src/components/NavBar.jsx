@@ -11,12 +11,14 @@ import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Experiences from "./Experiences"
+
 function refreshPage() {
   setTimeout(()=>{
       window.location.reload(false);
   }, 500);
   console.log('page to reload')
 }
+
 function NavBar(){
     return (
       <BrowserRouter basename="/kalyani-portfolio/">
